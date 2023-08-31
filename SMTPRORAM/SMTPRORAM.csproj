@@ -691,6 +691,12 @@
     <Compile Include="Jig\JIG\frmViewAllJIG.Designer.cs">
       <DependentUpon>frmViewAllJIG.cs</DependentUpon>
     </Compile>
+    <Compile Include="Main\newForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\newForm.Designer.cs">
+      <DependentUpon>newForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PagingHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1328,6 +1334,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Jig\JIG\frmViewAllJIG.resx">
       <DependentUpon>frmViewAllJIG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\newForm.resx">
+      <DependentUpon>newForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\BoxET.rdlc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
